@@ -1,6 +1,7 @@
 def reverse_each_word(array)
   array = "Hello there, and how are you?".split
-  array.reverse
+  new_array = array.split
+  new_array.reverse
 end
 
 #def reverse_each_word(sentence)
